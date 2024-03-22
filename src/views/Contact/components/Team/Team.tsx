@@ -142,7 +142,7 @@ const Team = (): JSX.Element => {
             align={'center'}
             color={'primary'}
           >
-            Contact the company's work team
+            Contact the company work team
           </Typography>
 
         </Box>

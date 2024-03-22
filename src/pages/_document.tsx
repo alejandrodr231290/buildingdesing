@@ -12,12 +12,12 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link
             rel="shortcut icon"
-            href="https://assets.maccarianagency.com/favicons/thefront/favicon.ico"
+            href="https://builddesigninc.org/logo.png"
           />
           <meta name="theme-color" content="#ffffff" />
           <meta
             name="description"
-            content="A modern design system for your new landing and web pages."
+            content="BUILD & DESIGN CONSTRUCTION INC"
           />
           <meta
             name="robots"
@@ -27,19 +27,19 @@ export default class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://assets.maccarianagency.com/screenshots/the-front/social.png"
+            content="https://builddesigninc.org/logo.png"
           />
           <meta
             property="og:title"
-            content="theFront | UI Kit by Maccarian Agency."
+            content="BUILD & DESIGN CONSTRUCTION INC."
           />
           <meta
             property="og:description"
-            content="A modern design system for your new landing and web pages."
+            content="BUILD & DESIGN CONSTRUCTION INC."
           />
           <meta
             property="og:url"
-            content="https://thefront.maccarianagency.com/"
+            content="https://builddesigninc.org/"
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

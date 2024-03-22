@@ -15,7 +15,7 @@ const IndexView = (): JSX.Element => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
-      <Main bgcolor={'background.paper'}>
+      <Main >
 
         <Container>
           <Hero />

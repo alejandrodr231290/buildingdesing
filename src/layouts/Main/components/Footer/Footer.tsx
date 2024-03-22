@@ -1,16 +1,16 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+//import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
-import { useTheme } from '@mui/material/styles';
+//import { useTheme } from '@mui/material/styles';
 import logo from '../../../../imagen/logo.png';
 import Image from 'next/image';
 
 const Footer = (): JSX.Element => {
-  const theme = useTheme();
-  const { mode } = theme.palette;
+  //const theme = useTheme();
+  //const { mode } = theme.palette;
 
   return (
     <Grid container spacing={2}>
@@ -22,18 +22,18 @@ const Footer = (): JSX.Element => {
           width={1}
           flexDirection={{ xs: 'column', sm: 'row' }}
         >
-         <Box
-        display={'flex'}
-        component="a"
-        href="/"
-        title="BUILD & DESIGN CONSTRUCTION INC"
-        width={80}
-      >
-        <Image src={logo} alt="logo" width={200} height={50} />
+          <Box
+            display={'flex'}
+            component="a"
+            href="/"
+            title="BUILD & DESIGN CONSTRUCTION INC"
+            width={80}
+          >
+            <Image src={logo} alt="logo" width={200} height={50} />
 
-      </Box>
+          </Box>
 
-          
+
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
             <Box marginTop={1} marginRight={2}>
               <Link
@@ -46,8 +46,8 @@ const Footer = (): JSX.Element => {
                 Home
               </Link>
             </Box>
-            
-           
+
+
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
@@ -59,7 +59,7 @@ const Footer = (): JSX.Element => {
                 Services
               </Link>
             </Box>
-            
+
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
@@ -71,7 +71,7 @@ const Footer = (): JSX.Element => {
                 Contact Us
               </Link>
             </Box>
-             
+
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
@@ -83,7 +83,7 @@ const Footer = (): JSX.Element => {
                 About Us
               </Link>
             </Box>
-            
+
           </Box>
         </Box>
       </Grid>
@@ -96,7 +96,7 @@ const Footer = (): JSX.Element => {
         >
           &copy; BUILD & DESIGN CONSTRUCTION INC. 2024
         </Typography>
-       
+
       </Grid>
     </Grid>
   );

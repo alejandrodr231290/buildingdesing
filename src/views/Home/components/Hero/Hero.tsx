@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { alpha, useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
+//import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import transp from '../../../../imagen/transp.png';
@@ -11,9 +10,9 @@ import Image from 'next/image';
 
 const Hero = (): JSX.Element => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+  /*const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
-  });
+  });*/
 
   return (
 

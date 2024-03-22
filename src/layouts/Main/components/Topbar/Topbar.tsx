@@ -28,10 +28,10 @@ interface Props {
 
 const Topbar = ({ handleMobileMenuClick, pages = [] }: Props): JSX.Element => {
   const theme = useTheme();
-  const { mode } = theme.palette;
+  // const { mode } = theme.palette;
 
   return (
-    <Box 
+    <Box
       display={'flex'}
       justifyContent={'space-between'}
       alignItems={'center'}
@@ -68,7 +68,7 @@ const Topbar = ({ handleMobileMenuClick, pages = [] }: Props): JSX.Element => {
             )}
           </Box>
         ))}
-       
+
       </Box>
       <Box sx={{ display: { xs: 'block', md: 'none' } }} alignItems={'center'}>
         <Button

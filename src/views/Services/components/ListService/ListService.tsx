@@ -2,10 +2,10 @@
 import React from 'react';
 import { useTheme, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import useMediaQuery from '@mui/material/useMediaQuery';
+//import useMediaQuery from '@mui/material/useMediaQuery';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
+//import CardActions from '@mui/material/CardActions';
+//import Button from '@mui/material/Button';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
@@ -68,9 +68,9 @@ const mock = [
 ];
 const WhoWeAre = (): JSX.Element => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+  /*const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
-  });
+  });*/
 
   return (
     <Box>

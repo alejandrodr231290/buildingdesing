@@ -8,12 +8,10 @@ import { Grid, IconButton } from '@mui/material';
 import MailAppIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-interface Props {
-  colorInvert?: boolean;
-}
 
 
-const TopNav = ({ colorInvert = false }: Props): JSX.Element => {
+
+const TopNav = (): JSX.Element => {
   const theme = useTheme();
   const { mode } = theme.palette;
   return (

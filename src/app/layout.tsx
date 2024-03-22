@@ -25,12 +25,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <link
           rel="shortcut icon"
-          href="http://localhost:3000/logo.png"
+          href="https://builddesigninc.org/logo.png"
         />
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="A modern design system for your new landing and web pages."
+          content="BUILD & DESIGN CONSTRUCTION INC"
         />
         <meta
           name="robots"
@@ -40,15 +40,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="http://localhost:3000/logo.png"
+          content="https://builddesigninc.org/logo.png"
         />
         <meta
           property="og:title"
-          content="theFront | UI Kit by Maccarian Agency."
+          content="BUILD & DESIGN CONSTRUCTION INC"
         />
         <meta
           property="og:description"
-          content="A modern design system for your new landing and web pages."
+          content="BUILD & DESIGN CONSTRUCTION INC"
         />
         <meta
           property="og:url"

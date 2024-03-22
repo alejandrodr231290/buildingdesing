@@ -3,8 +3,27 @@ const nextConfig = {
   /* experimental: {
      appDir: true,
    },*/
+ /* images: {
+    domains: ['assets.maccarianagency.com', 'localhost:3000', 'localhost', 'builddesigninc.org'],
+  },*/
   images: {
-    domains: ['assets.maccarianagency.com', 'localhost:3000', 'localhost','builddesigninc.org'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'assets.maccarianagency.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'builddesigninc.org',
+        pathname: '**',
+      },
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+        pathname: '**',
+      },
+    ],
   },
 }
 
